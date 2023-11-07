@@ -1,0 +1,191 @@
+@media(max-width:1280px){
+    .header{
+        padding: 14px 2%;
+        transition: .2s;
+    }
+    .Navbar a{
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+    .back12{
+        margin-top: 10%;
+    }
+    
+
+}
+@media(max-width:1090px){
+    .menu-icon{
+        display: block;
+        
+        
+    }
+    ul{
+        position: absolute;
+        width: 100%;
+        height: 45vh;
+        background-color: lightgrey;
+        top: 80px;
+        left: -100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        line-height: 3;
+        
+        
+    }
+    
+    .Navbar ul li{
+        display: block;
+        margin: 50px 0;
+    
+    }
+    .Navbar ul li a{
+        font-size: 20px;
+        
+    }
+    
+    #check:checked ~ul{
+        left: 0;
+        
+    }
+    #check:checked ~ul:hover{
+        background-color: gray;
+        color: #fff;
+        
+    }
+
+    /* pra */
+    .pra1{
+        left: 1%;
+    }
+    .pra3{
+        width: 370px;
+        padding: 10px;
+    }
+
+    
+    /* Section 2 */
+    .back12{
+        width: 100%;
+        margin-top: 15%;
+        
+        
+    }
+    .back12 .row2{
+        width: auto;
+        
+        
+        
+    }
+    .back12 .row2 .card_part1{
+        width: auto;
+        margin-left: 20px;
+        
+    }
+    .back12 .row2 .card_part2{
+        width: auto;
+        margin-left: 20px;
+        
+        
+    }
+    .back12 .row2 .card_part3{
+        width: auto;
+        margin-left: 20px;
+        
+    }
+
+} 
+    @media(max-width:768px){
+    /* Section 2 */
+    .back12{
+        height: auto;
+        text-align: center;
+        margin-top: 20%;
+        
+    }
+    .back12 .row1{
+        text-align: center;
+        color: #fff;
+        line-height:2;
+    }
+    .back12 .row3{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        color: #222;
+        justify-content: center;
+        
+    }
+    .back12 .row3 .footer{
+        width:100px;
+        background-color: lightpink ;
+        padding: 10px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        
+    }
+    .back12 .row3 p:hover{
+        background-color: grey;
+        color: #fff;
+    }
+
+    .back12 .row2{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+        
+    }
+    .back12 .row2 .card_part1{
+        width: 300px;
+        background-color: #fff;
+        padding: 20px;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        margin-bottom: 24px;
+        text-align: center;
+        
+    }
+    .back12 .row2 .card_part2{
+        width: 300px;
+        background-color: #fff;
+        padding: 20px;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        margin-bottom: 24px;
+        text-align: center;
+        
+        
+    }
+    .back12 .row2 .card_part3{
+        width: 300px;
+        background-color: #fff;
+        padding: 20px;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+        margin-bottom: 24px;
+        text-align: center;
+        
+    }
+
+    .back12 .row2 .card1 img{
+        width: 100%;
+        height: 30vh;
+        border-top-right-radius: 80px;
+    }
+    .back12 .row2 .card2 img{
+        width: 100%;
+        height: 30vh;
+        border-top-right-radius: 80px;
+    }
+    .back12 .row2 .card3 img{
+        width: 100%;
+        height: 30vh;
+        border-top-right-radius: 80px;
+    }
+        
+}
